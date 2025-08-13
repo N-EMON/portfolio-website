@@ -185,14 +185,30 @@ footer input[type="text"],footer input[type="email"],textarea{
     .skill-container,
     .resume-container,
     footer,
-        .about-items{
+    .about-items,
+    .banner,nav,nav ul{
         flex-direction: column;
+    }
+    .header{
+        background-image: none;
+    }
+    nav ul{
+        gap: 20px;
+    }
+    .banner{
+        margin:20px;
+    }
+    .banner-profile-pic{
+        width: 100%;
+        height: 100%;
+        margin-top: 30px;
     }
     footer,.about{
         padding: 20px;
     }
     .footer-column{
         width: 100%;
+
     }
 footer input[type="text"],footer input[type="email"],textarea{
     width: calc((100% - 40px));
